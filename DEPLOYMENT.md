@@ -42,9 +42,8 @@ This guide walks you through deploying the Project Management App on Railway.
 |-----|-------|----------|
 | `JWT_SECRET` | Your secret key (change this!) | `your_super_secret_key_12345` |
 | `NODE_ENV` | Set to production | `production` |
-| `PORT` | (Optional) Leave empty - Railway sets this automatically | - |
 
-**Important:** The `DATABASE_URL` is auto-injected by Railway when you add the PostgreSQL service.
+**Important:** The `PORT` and `DATABASE_URL` are auto-injected by Railway, so you don't need to set them manually.
 
 ### Step 5: Deploy
 
